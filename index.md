@@ -1,98 +1,27 @@
 ---
-title: About Alembic
+title: About Dex-Pump
 feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+  
+
+feature_image: "//assests/logo.png"
+excerpt: "Improved Value from Mature Horizontal Wells"
 layout: page
 ---
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
+Dex-Pump, an Oklahoma City based startup company, is seeking an operator in the OK Mississippian Play to test their innovative pump.
+
+The Dex-Pump extends the life of mature rod pumped horizontal wells by extending the pumping system intake deep into the curve removing backpressure on the reservoir.
+
+The Dex-Pump system attaches to the bottom of a conventional rod pumping system and uses a bladder pump located at the end of 2 3/8’ riser tubing (~500’) to move fluid from the bottom of the curve. 
+
+The power fluid for the Dex-Pump is compressed air which operates the bladder pump via capillary tubing attached to the outside of the production tubing and riser tubing. 
 
 
-## Features
+## Candidates
 
-- Available as a **theme gem** and **GitHub Pages** theme
-- Simple and elegant design that can be used out of the box or as solid starting point
-- Tested in all major browsers, including **IE and Edge**
-- Built in **Service Worker** so it can work offline and on slow connections
-- **Configurable colours** and typography in a single settings file
-- Extensive set of **shortcodes** to include various elements; such as buttons, icons, figure images and more
-- Solid **typographic framework** from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Post category support in the form of a single post index page grouped by category
-- Built in live search using JavaScript
-- **Contact form** built in using [Formspree](https://formspree.io/)
-- Designed with **[Siteleaf](https://www.siteleaf.com/)** in mind
-- Has 9 of the most popular networks as performant sharing buttons
-- Built in "dark mode" and reduced motion styles for a more accessible experience
-- Has documentation
-
-## Examples
-
-Here are a few examples of Alembic out in the wild being used in a variety of ways:
-
-- [bawejakunal.github.io](https://bawejakunal.github.io/)
-- [trenki2.github.io](https://trenki2.github.io/)
-- [overtonestudio.github.io](https://overtonestudio.github.io/)
-- [isaacsmith.github.io](https://isaacsmith.github.io/)
-- [karateca.org](http://www.karateca.org/)
-- [lillianpetersen.github.io](https://lillianpetersen.github.io/)
-- [case2111.github.io](https://case2111.github.io/)
-
-## Installation
-
-### Quick setup
-
-To give you a running start I've put together some starter kits that you can download, fork or even deploy immediately:
-
-- ⚗️🍨 Vanilla Jekyll starter kit  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dex-pump/alembic-kit){:style="background: none"}
-- ⚗️🌲 Forestry starter kit  
-  [![Deploy to Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=dex-pump/alembic-forestry-kit&engine=jekyll){:style="background: none"}  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dex-pump/alembic-forestry-kit){:style="background: none"}
-- ⚗️💠 Netlify CMS starter kit  
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dex-pump/alembic-netlifycms-kit&stack=cms){:style="background: none"}
-
-- ⚗️:octocat: GitHub Pages with remote theme kit  
-  {% include button.html text="Download kit" link="https://github.com/dex-pump/alembic-kit/archive/remote-theme.zip" color="#24292e" %}
-- ⚗️🚀 Stackbit starter kit  
-  [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/dex-pump/alembic-stackbit-kit){:style="background: none"}
-
-### As a Jekyll theme
-
-1. Add `gem "alembic-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the theme and its dependancies
-3. Add `theme: alembic-jekyll-theme` to your `_config.yml` file to set the site theme
-4. Run `bundle exec jekyll serve` to build and serve your site
-5. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/dex-pump/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
-
-### As a GitHub Pages remote theme
-
-1. Add `gem "jekyll-remote-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-3. Add `jekyll-remote-theme` to the list of `plugins` in your `_config.yml` file
-4. Add `remote_theme: dex-pump/alembic` to your `_config.yml` file to set the site theme
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/dex-pump/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
-
-### As a Boilerplate / Fork
-
-_(deprecated, not recommended)_
-
-1. [Fork the repo](https://github.com/dex-pump/alembic#fork-destination-box)
-2. Replace the `Gemfile` with one stating all the gems used in your project
-3. Delete the following unnecessary files/folders: `.github`, `LICENSE`, `screenshot.png`, `CNAME` and `alembic-jekyll-theme.gemspec`
-4. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the [configuration](#configuration) documentation and the example [`_config.yml`](https://github.com/dex-pump/alembic/blob/master/_config.yml) file to set things like the navigation, contact form and social sharing buttons
-
-## Customising
-
-When using Alembic as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, simply by matching the file name and path. The most common example of this would be if you want to add your own styles or change the core style settings.
-
-To add your own styles copy the [`styles.scss`](https://github.com/dex-pump/alembic/blob/master/assets/styles.scss) into your own project with the same file path (`assets/styles.scss`). From there you can add your own styles, you can even optionally ignore the theme styles by removing the `@import "alembic";` line.
-
-If you're looking to set your own colours and fonts you can overwrite them by matching the variable names from the [`_settings.scss`](https://github.com/dex-pump/alembic/blob/master/_sass/_settings.scss) file in your own `styles.scss`, make sure to state them before the `@import "alembic";` line so they take effect. The settings are a mixture of custom variables and settings from [Sassline](https://medium.com/@jakegiltsoff/sassline-v2-0-e424b2881e7e) - follow the link to find out how to configure the typographic settings.
+- 7” production casing to the top of the curve
+- Oil cut above 50% and/or high GOR 
+- Current total fluid rate below 50 bpd
+- Electric motor driven pumping unit with POC
+- Single digit decline rate
+- Low failure rate well
