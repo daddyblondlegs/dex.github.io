@@ -34,7 +34,7 @@ plugins:
 - jekyll-commonmark
 - jekyll-include-cache
 - jemoji
-
+- jekyll-remote-theme
 # 3. Gem settings
 theme: alembic-jekyll-theme
 paginate: 2 # jekyll-paginate > items per page
@@ -80,7 +80,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
+title: "Dex-Pump" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
 url: "dex-pump.github.io" # Site url, also used in jekyll-seo-tag
@@ -135,6 +135,4 @@ sharing_links: # Appear at the bottom of single blog posts, add as desired. The 
   facebook: "#3B5998"
   Email: true
 
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 remote_theme: daviddarnes/alembic
